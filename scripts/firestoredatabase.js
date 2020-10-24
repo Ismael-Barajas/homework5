@@ -5,7 +5,7 @@
     
     class FireStoreData {
         constructor() {
-            //firebase.initializeApp(window.FirebaseConfig);
+            firebase.initializeApp(window.App.FirebaseConfig);
             this.firestore = firebase.firestore();
         }
 
